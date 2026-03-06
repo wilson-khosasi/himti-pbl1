@@ -1,0 +1,79 @@
+.background {
+    width: 100%; 
+    min-height: 100vh;
+    background: #4DA9E5;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 20px;
+    box-sizing: border-box;
+}
+
+.title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 80px; 
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.about-logo {
+    width: 278px;
+    height: auto; 
+    object-fit: contain;
+}
+
+.text {
+    max-width: 810px; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    line-height: 1.6;
+}
+
+@media (max-width: 1200px) {
+    .content {
+        gap: 50px;
+    }
+}
+
+@media (max-width: 992px) {
+    .background {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .content {
+        flex-direction: column;
+        text-align: center;
+    }
+    .logo {
+        width: 200px;
+    }
+    .text {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 600px) {
+    .title {
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+    .text {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .logo {
+        width: 150px;
+    }
+}
