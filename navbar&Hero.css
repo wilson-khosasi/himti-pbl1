@@ -17,7 +17,7 @@
     margin: 0px;
     padding: 0px;
     font-weight: 600;
-    font-family: Poppins ;
+    font-family: 'Poppins' ;
     size: 29px;
     cursor: pointer;
 }
@@ -30,7 +30,7 @@
 body{
     background-color: rgba(222, 222, 222, 1);
     margin: 0;
-    font-family: Poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -51,7 +51,7 @@ body{
     align-items: center;
     justify-content: center;
 
-    /* font-family: Poppins; */
+    font-family: Poppins;
     font-weight: 600;
     gap: 10px;
 
@@ -89,7 +89,7 @@ body{
     max-width: 1728px;
     height: auto;
     margin-top: -100px;
-    margin-bottom: -100px;
+    margin-bottom: -90px;
 
     position: relative;
     z-index: 1;
